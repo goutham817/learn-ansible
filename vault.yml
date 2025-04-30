@@ -1,6 +1,6 @@
 - name: vault
-  connection: local
   hosts: localhost
+  connection: local
   tasks:
     - name: print password
       ansible.builtin.debug:
